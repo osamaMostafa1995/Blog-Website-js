@@ -1,0 +1,237 @@
+/* public rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+.card-link {
+  background: none;
+  border: 1px solid #ff6200;
+  padding: 4px 15px;
+  border-radius: 30px;
+  color: #ff6200;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.card-link:hover {
+  background-color: #ff6200;
+  border: 1px solid #ddd;
+  color: #ffffff;
+}
+/* public  rules */
+/* start home page */
+.blog-subtitle {
+  background: #ff6200;
+  border-bottom: 8px solid #ec5b00;
+  padding: 13px 0px;
+}
+.ribbonlink {
+  margin: 0px;
+}
+.ribboncaps,
+.navbar-brand,
+.navbar-brand span {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.navbar-brand span {
+  color: #ff6200;
+}
+
+.nav-item a.nav-link {
+  font-size: 11px;
+}
+.image1 {
+  margin-bottom: 40px;
+}
+.aside .card .card-header {
+  background-color: #ff6200;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.btn-floating {
+  color: #ff6200;
+  transition: 0.3s;
+}
+.btn-floating:hover {
+  color: #ffffff;
+}
+.ribbonsep {
+  color: #ff731c;
+  font-size: 46px;
+  margin: 0 5px;
+}
+.ribbonlower {
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+.fa-angle-right {
+  font-size: 18px;
+  color: #fff;
+  background: #ec5b00;
+  border: 1px solid #ec5b00;
+  border-radius: 50px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin: 0 0 0 5px;
+  line-height: 27px;
+  vertical-align: middle;
+  top: -3px;
+  position: relative;
+  padding: 0 0 0 2px;
+}
+.blogs-content {
+  background-color: #ffffff;
+  padding: 80px 0px 0px;
+}
+
+.card {
+  border: none;
+  padding: 0px 0px 26px;
+  border-bottom: 1px solid #eeeeeefa;
+  margin: 0px 0px 20px;
+  transition: 0.3s;
+}
+.card .card-body {
+  padding: 0;
+  margin: 0;
+}
+.card .card-title {
+  font-size: 15px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #ff6200;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card .card-subtitle {
+  font-size: 12px;
+  color: #999;
+  margin: 0 0 15px;
+  line-height: 20px;
+}
+.card .card-subtitle span {
+  color: #ff6200;
+  font-weight: 500;
+}
+.card .card-text {
+  color: black;
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.aside .card .card-body {
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+.aside .card .card-text {
+  letter-spacing: 0px;
+  font-size: 12px;
+  text-align: start;
+  margin: 20px 0px 10px;
+  padding: 0px 10px;
+}
+.aside .card .form-card {
+  position: relative;
+}
+.aside .card .form-card input {
+  width: 92%;
+  outline: none;
+  border: 1px solid #ddd;
+  color: rgb(0, 0, 0);
+  background: none;
+  font-size: 12px;
+  padding: 7px 15px;
+  border-radius: 30px;
+}
+.aside .card .form-card input::placeholder {
+  color: #999;
+}
+.aside .card .form-card button {
+  position: absolute;
+  right: 13px;
+  border: 1px solid #ddd;
+  color: #ffffff;
+  background-color: #ff6200;
+  padding: 4px 15px;
+  border-radius: 0px 30px 30px 0px;
+}
+/* start home page */
+/* form */
+.nav-pills .nav-link {
+  color: #000;
+}
+.nav-pills .active {
+  background-color: #ff6200;
+}
+.blog-form {
+  background-image: url(../image/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+.form {
+  margin: auto;
+}
+#myform {
+  border: 1px solid #ff6200;
+  padding: 20px 40px;
+  background-image: url(../image/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.form-group {
+  margin: 30px 0px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 25px;
+  background: none;
+  border: 1px solid #ff6200;
+  border-radius: 30px;
+  font-size: 12px;
+  outline: none;
+  letter-spacing: 1px;
+}
+.form-group input::placeholder {
+  color: rgb(156, 156, 156);
+  letter-spacing: 1px;
+}
+.form-group button {
+  background: none;
+  border: 1px solid #ff6200;
+  color: rgb(156, 156, 156);
+  padding: 7px 18px;
+  text-transform: capitalize;
+  font-size: 13px;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.3s;
+}
+.form-group button:hover {
+  border: 1px solid rgb(156, 156, 156);
+  background-color: #ff6200;
+  color: #ffffff;
+}
